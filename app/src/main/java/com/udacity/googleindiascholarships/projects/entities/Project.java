@@ -6,7 +6,6 @@ public class Project {
     private String description;
     private String githubLink;
     private String pathToImage;
-
     private int placeHolderImage;
 
     public Project(String name, String description, String githubLink, String pathToImage) {
@@ -15,7 +14,6 @@ public class Project {
         this.githubLink = githubLink;
         this.pathToImage = pathToImage;
     }
-
 
     public Project(String name, int placeholderImage) {
         this.name = name;
@@ -26,7 +24,6 @@ public class Project {
     public int getPlaceHolderImage() {
         return placeHolderImage;
     }
-
 
     public String getName() {
         return name;
