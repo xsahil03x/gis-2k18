@@ -7,12 +7,26 @@ public class Project {
     private String githubLink;
     private String pathToImage;
 
+    private int placeHolderImage;
+
     public Project(String name, String description, String githubLink, String pathToImage) {
         this.name = name;
         this.description = description;
         this.githubLink = githubLink;
         this.pathToImage = pathToImage;
     }
+
+
+    public Project(String name, int placeholderImage) {
+        this.name = name;
+        this.placeHolderImage = placeholderImage;
+
+    }
+
+    public int getPlaceHolderImage() {
+        return placeHolderImage;
+    }
+
 
     public String getName() {
         return name;
